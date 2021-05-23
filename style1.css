@@ -1,0 +1,78 @@
+body
+{
+    background-image: url("sky.jpeg");
+    background-attachment: fixed; /* Le fond restera fixe */
+}
+p
+{
+	color: white;
+}
+.logo
+{
+	background-color:black;
+	text-align: center;
+	padding: 1px 0 1px 0;
+}
+.milieu
+{
+	background-color: black;
+	display: flex;
+	font-weight: bold;
+}
+.section-sondage
+{
+	border: dashed 1px grey;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding:5px 15px 20px 15px;
+	border-radius: 10px;
+	bottom: 100px;
+  	right: 50px;
+	width: 250px;	
+}
+.text-sondage
+{
+	color: grey;
+}
+legend
+{
+	color: white;
+	font-size: large;
+}
+.bouton
+{
+	border: 0;
+    line-height: 2;
+    padding: 0 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: medium;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+	background-color: #f2f3f4;
+	/*bouton du fieldset*/
+}
+.bouton:hover {
+    background-color: rgba(215, 219, 221, 1);
+}
+fieldset
+{
+	padding:10px 20px 10px 20px;
+	width: 250px;
+	border-radius: 7px;
+  	right: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+} 
+.box
+{
+	margin: 100px 0 100px 0;
+	padding: 100px 0 100px 0;
+}
+strong.message
+{
+	color: black;
+}
